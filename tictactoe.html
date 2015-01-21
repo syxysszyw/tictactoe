@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tictactoe</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="outer">
+        <table class="chessboard">
+            <tr>
+                <td class="player" data-x="0" data-y="0"></td>
+                <td class="player" data-x="0" data-y="1"></td>
+                <td class="player" data-x="0" data-y="2"></td>
+            </tr>
+            <tr>
+                <td class="player" data-x="1" data-y="0"></td>
+                <td class="player" data-x="1" data-y="1"></td>
+                <td class="player" data-x="1" data-y="2"></td>
+            </tr>
+            <tr>
+                <td class="player" data-x="2" data-y="0"></td>
+                <td class="player" data-x="2" data-y="1"></td>
+                <td class="player" data-x="2" data-y="2"></td>
+            </tr>
+        </table>
+        <p id="txt"></p>
+        <br>
+        <br>
+        <div class="intr">
+            <p>playerA：<img src="./images/player-a.png"></p>
+            <p>playerB：<img src="./images/player-b.png"></p>
+            <button id="restart">restart</button>
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="./js/Util.js"></script>
+    <script type="text/javascript" src="./js/tictactoe.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+.outer{ position: absolute; left: 50%; width: 210px; height: 210px; margin-top: 50px; margin-left: -105px; text-align: center;}
+.chessboard{width: 100%; table-layout: fixed; border-collapse: collapse;}
+.chessboard td{width: 50px; height: 50px; border: 1px solid #000;}
+.chessboard td.player{ background-repeat: no-repeat; background-size: 30px 30px; background-position: center center;}
+.chessboard td.pA{ background-image: url(../images/player-A.png);}
+.chessboard td.pB{ background-image: url(../images/player-B.png);}
+.txt{ color: #f00;}
+.intr p{ margin-bottom: 20px; font-family: 'microsoft yahei';}
+.intr img{ width: 30px; height: 30px;}
+.intr button{ padding: 10px; border-radius: 10px; border: 1px solid green; background-color: #fff; cursor: pointer;}
